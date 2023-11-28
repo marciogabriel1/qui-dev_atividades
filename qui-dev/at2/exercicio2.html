@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card de Produto</title>
+</head>
+<body>
+    <!-- Título da página -->
+    <title>Card de Produto</title>
+    <!-- Estilos CSS embutidos -->
+    <style>
+        /* Reset de margens, preenchimentos e estilos de lista padrão */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin:0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Estilos do card de produto */
+        .product-card {
+            max-width: 300px;
+            width: 100%;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Efeito de escala no hover */
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+
+        /* Estilo da imagem do produto */
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        /* Estilos das informações do produto */
+        .product-info {
+            padding: 20px;
+        }
+
+        /* Estilo do título do produto */
+        .product-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Estilo da descrição do produto */
+        .product-description {
+            font-size: 0.9em;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        /* Estilo do preço do produto */
+        .product-price {
+            font-size: 1.2em;
+            color: #e44d26;
+            font-weight: bold;
+        }
+
+        /* Estilo do botão de compra */
+        .buy-button {
+            display: block;
+            width: 100%;
+            padding: 6px;
+            background-color: #e44d26;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        /* Efeito de cor no hover do botão de compra */
+        .buy-button:hover {
+            background-color: #333;
+        }
+    </style>
+</body>
+
+<body>
+    <!-- Contêiner principal -->
+    <div class="product-card">
+        <!-- Imagem do produto -->
+        <img src="arroz.webp" alt="Product Image" class="product-image">
+        <!-- Informações do produto -->
+        <div class="product-info">
+            <!-- Título do produto -->
+            <div class="product-title">Nome do Produto</div>
+            <!-- Descrição do produto -->
+            <div class="product-description">ATENÇÂO, arroz urbano esta em promoçâo, isso mesmo em promoçâo, por apenas R$4,99.</div>
+            <!-- Preço do produto -->
+            <div class="product-price">$4.99</div>
+            <!-- Botão de compra -->
+            <a href="#" class="buy-button">Comprar Agora</a>
+        </div>
+    </div>
+</body>
+
+</body>
+</html>
